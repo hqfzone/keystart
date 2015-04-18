@@ -17,6 +17,7 @@ if ( 'OVER' != getCookie("FIRSTTIME") ) {
 
 var urlcache = {};
 var favcache = {};
+var isupdate = false;
 
 for (var i = 48; i <= 90; i++) {
     var code = String.fromCharCode(i);
@@ -54,9 +55,10 @@ $("#main li").mouseenter(function() {
 
 $("#main li").click(function() {
     var code = $(this).attr('id').replace('LI_', '');
-    if (urlcache[code] != '' && typeof(urlcache[code]) != 'undefined') {
+    if (isupdate == false && urlcache[code] != '' && typeof(urlcache[code]) != 'undefined') {
         window.location.href = urlcache[code];
     }
+	isupdate = false;
 });
 
 function del() {
@@ -70,6 +72,7 @@ function del() {
 };
 
 function update() {
+	isupdate = true;
     var code = $("#tempdate").val();
     $("#LI_" + code).css('background', '#ccf');
     var u = window.prompt("请输入键位 [" + code + "] 对应的网站地址", urlcache[code]);
