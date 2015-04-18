@@ -1,4 +1,5 @@
 if ( 'OVER' != getCookie("FIRSTTIME") ) {
+    setCookie("_1", "http://qifu.me");
 	setCookie("_A", "http://www.amazon.cn");
     setCookie("_B", "https://www.baidu.com");
     setCookie("_G", "http://www.bing.com");
@@ -74,7 +75,6 @@ function del() {
 function update() {
 	isupdate = true;
     var code = $("#tempdate").val();
-    $("#LI_" + code).css('background', '#ccf');
     var u = window.prompt("请输入键位 [" + code + "] 对应的网站地址", urlcache[code]);
     if (u.indexOf('http://') == -1 && u.indexOf('https://') == -1) {
         u = 'http://' + u;
@@ -100,7 +100,6 @@ function update() {
         favcache[code] = getico(u);
         deleteCookie("_" + code + "_F");
     }
-    $("#LI_" + code).css('background', '#fff');
     $("#" + code).remove();
     $("#LI_" + code).prepend('<img id="' + code + '" class="fav" src="' + favcache[code] + '" align="center">');
     return true;
