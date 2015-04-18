@@ -1,1 +1,149 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7(\'T\'!=G("U")){8("1v","h://m.1w.n");8("1x","h://m.1y.n");8("1z","h://m.1A.n");8("1B","h://m.1C.n");8("1D","h://m.1E.n");8("1F","h://m.1G.n");8("1H","h://m.1I.n");8("U","T")};5 j={};1J(5 i=1K;i<=1L;i++){5 q=V.W(i);5 v=G("H"+q);7(v!=1M&&v!=\'\'&&I(v)!=\'J\'){j[q]=v;$("#l"+q).X(\'<t w="\'+q+\'" r="Y" x="\'+K(v)+\'" Z="10">\')}};$(L).1N(g(a){7(a.1O)k M;5 b=V.W(a.1P);$("#l"+b).1Q("11");12(\'$("#l\'+b+\'").1R("11");\',1S);7(j[b]==\'\'||I(j[b])==\'J\'){$("#13").14(\'找不到这个按键的配置,注意切换您的输入法哦~~~\');12(\'$("#13").14("");\',1T)}1U N.15.16=j[b]});$("#17 18").1V(g(){$("#y").A($(O).19(\'w\').1a("l",""));$(O).1W(\'<1b r="1c"><B><a 1d="k P()" r="P" 1e="删除"><t x="1f/1X-1g.1h"></a></B><B><a 1d="k 1i()" r="1j" 1e="编辑"><t x="1f/1j-1g.1h"></a></B></1b>\')}).1Y(g(){$("#y").A(\'\');$(".1c").Q()});$("#17 18").1Z(g(){5 a=$(O).19(\'w\').1a(\'l\',\'\');7(j[a]!=\'\'&&I(j[a])!=\'J\'){N.15.16=j[a]}});g P(){5 a=$("#y").A();j[a]=\'\';$("#"+a).Q();1k("H"+a);k M};g 1i(){5 a=$("#y").A();$("#l"+a).1l(\'1m\',\'#20\');5 u=N.21("请输入键位 ["+a+"] 对应的网站地址","");$("#l"+a).1l(\'1m\',\'#22\');7(u.p(\'h://\')==-1&&u.p(\'1n://\')==-1){u=\'h://\'+u};7(!1o(u)){23(\'网站地址输入错误!请核对\');k M};j[a]=u;$("#"+a).Q();$("#l"+a).X(\'<t w="\'+a+\'" r="Y" x="\'+K(u)+\'" Z="10">\');8("H"+a,u);k 25};g K(a){5 s=a.p("//");R=a.C(s+2);5 b=R.p("/");7(b==-1){b=R.D};k a.C(0,b+s+2)+\'/26.27\'};g 8(a,b,c,d,e){5 f=S 1p();f.1q(f.1r()+(28*29*24*1s*1s*1t));L.1u=a+"="+2a(b)+((f)?"; 2b="+f.2c():"")+"; 2d=/"};g 1k(a){E=S 1p();E.1q(E.1r()-(2e*1t));8(a,"",E)};g G(a){5 b=L.1u;a+="=";5 i=0;2f(i<b.D){5 c=i+a.D;7(b.C(i,c)==a){5 d=b.p(";",c);7(d==-1)d=b.D;k 2g(b.C(c,d))};i=b.p(" ",i)+1;7(i==0)2h};k};g 1o(a){5 b="^((1n|h|2i|2j|2k)?://)"+"?(([0-o-F!~*\'().&=+$%-]+: )?[0-o-F!~*\'().&=+$%-]+@)?"+"(([0-9]{1,3}.){3}[0-9]{1,3}"+"|"+"([0-o-F!~*\'()-]+.)*"+"([0-o-z][0-o-z-]{0,2l})?[0-o-z]."+"[a-z]{2,6})"+"(:[0-9]{1,4})?"+"((/?)|"+"(/[0-o-F!~*\'().;?:@&=+$,%#-]+)+/?)$";5 c=S 2m(b);k!!c.2n(a)};',62,148,'|||||var||if|setCookie||||||||function|http||urlcache|return|LI_|www|com|9a|indexOf|code|class||img|||id|src|tempdate||val|span|substring|length|expdate|z_|getCookie|_|typeof|undefined|getico|document|false|window|this|del|remove|temp|new|OVER|FIRSTTIME|String|fromCharCode|prepend|fav|align|center|active|setTimeout|message|html|location|href|main|li|attr|replace|div|oper|onclick|title|images|icon|png|update|edit|deleteCookie|css|background|https|IsURL|Date|setTime|getTime|60|1000|cookie|_B|baidu|_G|google|_Q|qq|_T|taobao|_V|v2ex|_W|weibo|_Y|youku|for|48|90|null|keyup|ctrlKey|keyCode|addClass|removeClass|300|2000|else|mouseenter|append|delete|mouseleave|click|ccf|prompt|fff|alert||true|favicon|ico|100|365|escape|expires|toGMTString|path|86400|while|decodeURIComponent|break|ftp|rtsp|mms|61|RegExp|test'.split('|'),0,{}))
+if ( 'OVER' != getCookie("FIRSTTIME") ) {
+	setCookie("_A", "http://www.amazon.cn");
+    setCookie("_B", "https://www.baidu.com");
+    setCookie("_G", "http://www.bing.com");
+	setCookie("_I", "http://www.iqiyi.com");
+	setCookie("_J", "http://www.jd.com");
+	setCookie("_O", "https://outlook.com");
+    setCookie("_Q", "http://www.qq.com");
+    setCookie("_T", "http://www.tmall.com");
+    setCookie("_U", "http://ustc.edu.cn");
+    setCookie("_U_F", "http://ustc.edu.cn/ustc.ico");
+    setCookie("_V", "https://www.v2ex.com");    
+    setCookie("_W", "http://weibo.com");
+    setCookie("_Y", "http://www.youku.com");
+    setCookie("FIRSTTIME", "OVER");
+};
+
+var urlcache = {};
+var favcache = {};
+
+for (var i = 48; i <= 90; i++) {
+    var code = String.fromCharCode(i);
+    var v = getCookie("_" + code);
+    var f = getCookie("_" + code + "_F");
+    if (v != null && v != '' && typeof(v) != 'undefined') {
+        urlcache[code] = v;
+        if (f != null && f != '' && typeof(f) != 'undefined'){
+            favcache[code] = f;
+        }else{
+            favcache[code] = getico(v);
+        }
+        $("#LI_" + code).prepend('<img id="' + code + '" class="fav" src="' + favcache[code] + '" align="center">')
+    }
+};
+
+$(document).keyup(function(ev) {
+    if (ev.ctrlKey) return false;
+    var code = String.fromCharCode(ev.keyCode);
+    $("#LI_" + code).addClass("active");
+    setTimeout('$("#LI_' + code + '").removeClass("active");', 300);
+    if (urlcache[code] == '' || typeof(urlcache[code]) == 'undefined') {
+        $("#message").html('此按键未配置,请注意切换您的输入法');
+        setTimeout('$("#message").html("");', 2000)
+    } else window.location.href = urlcache[code];
+});
+
+$("#main li").mouseenter(function() {
+    $("#tempdate").val($(this).attr('id').replace("LI_", ""));
+    $(this).append('<div class="oper"><span><a onclick="return del()" class="del" title="删除"><img src="images/delete-icon.png"></a></span><span><a onclick="return update()" class="edit" title="编辑"><img src="images/edit-icon.png"></a></span></div>')
+}).mouseleave(function() {
+    $("#tempdate").val('');
+    $(".oper").remove()
+});
+
+$("#main li").click(function() {
+    var code = $(this).attr('id').replace('LI_', '');
+    if (urlcache[code] != '' && typeof(urlcache[code]) != 'undefined') {
+        window.location.href = urlcache[code];
+    }
+});
+
+function del() {
+    var code = $("#tempdate").val();
+    urlcache[code] = '';
+    favcache[code] = '';
+    $("#" + code).remove();
+    deleteCookie("_" + code);
+    deleteCookie("_" + code + "_F");
+    return false;
+};
+
+function update() {
+    var code = $("#tempdate").val();
+    $("#LI_" + code).css('background', '#ccf');
+    var u = window.prompt("请输入键位 [" + code + "] 对应的网站地址", urlcache[code]);
+    if (u.indexOf('http://') == -1 && u.indexOf('https://') == -1) {
+        u = 'http://' + u;
+    };
+    if (!IsURL(u)) {
+        alert('网站地址输入错误,请核对!');
+        return false;
+    };
+    urlcache[code] = u;
+    setCookie("_" + code, u);
+    var uf = window.prompt("请输入键位 [" + code + "] 对应的favicon地址,不填则默认使用\n“" + urlcache[code] +"”下的“favicon.ico”", "");
+    if(uf != ""){
+        if (uf.indexOf('http://') == -1 && uf.indexOf('https://') == -1) {
+            uf = 'http://' + uf;
+        };
+        if (!IsURL(uf)) {
+            alert('favicon地址输入错误,请核对!');
+            return false;
+        };
+        favcache[code] = uf;
+        setCookie("_" + code + "_F", uf);
+    }else{
+        favcache[code] = getico(u);
+        deleteCookie("_" + code + "_F");
+    }
+    $("#LI_" + code).css('background', '#fff');
+    $("#" + code).remove();
+    $("#LI_" + code).prepend('<img id="' + code + '" class="fav" src="' + favcache[code] + '" align="center">');
+    return true;
+};
+
+function getico(url) { 
+    var s = url.indexOf("//"); 
+    temp = url.substring(s + 2); 
+    var s1 = temp.indexOf("/"); 
+    if (s1 == -1) { 
+        s1 = temp.length 
+    }; 
+    return url.substring(0, s1 + s + 2) + '/favicon.ico' 
+}; 
+
+function setCookie(name, value, path, domain, secure) {
+    var expdate = new Date();
+    expdate.setTime(expdate.getTime() + (100 * 365 * 24 * 60 * 60 * 1000));
+    document.cookie = name + "=" + escape(value) + ((expdate) ? "; expires=" + expdate.toGMTString() : "") + "; path=/";
+};
+
+function deleteCookie(name) {
+    expdate = new Date();
+    expdate.setTime(expdate.getTime() - (86400 * 1000));
+    setCookie(name, "", expdate)
+};
+
+function getCookie(name) {
+    var bikky = document.cookie;
+    name += "=";
+    var i = 0;
+    while (i < bikky.length) {
+        var offset = i + name.length;
+        if (bikky.substring(i, offset) == name) {
+            var endstr = bikky.indexOf(";", offset);
+            if (endstr == -1) endstr = bikky.length;
+            return decodeURIComponent(bikky.substring(offset, endstr))
+        };
+        i = bikky.indexOf(" ", i) + 1;
+        if (i == 0) break
+    };
+    return
+};
+
+function IsURL(str_url) {
+    var strRegex = "^((https|http|ftp|rtsp|mms)?://)" + "?(([0-9a-z_!~*'().&=+$%-]+: )?[0-9a-z_!~*'().&=+$%-]+@)?" + "(([0-9]{1,3}.){3}[0-9]{1,3}" + "|" + "([0-9a-z_!~*'()-]+.)*" + "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]." + "[a-z]{2,6})" + "(:[0-9]{1,4})?" + "((/?)|" + "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";
+    var re = new RegExp(strRegex);
+    return !!re.test(str_url);
+};
