@@ -1,16 +1,16 @@
 if ( 'OVER' != getCookie("FIRSTTIME") ) {
     setCookie("_1", "http://qifu.me");
-	setCookie("_A", "http://www.amazon.cn");
+    setCookie("_A", "http://www.amazon.cn");
     setCookie("_B", "https://www.baidu.com");
     setCookie("_G", "http://www.bing.com");
-	setCookie("_I", "http://www.iqiyi.com");
-	setCookie("_J", "http://www.jd.com");
-	setCookie("_O", "https://outlook.com");
+    setCookie("_I", "http://www.iqiyi.com");
+    setCookie("_J", "http://www.jd.com");
+    setCookie("_O", "https://outlook.com");
     setCookie("_Q", "http://www.qq.com");
     setCookie("_T", "http://www.tmall.com");
     setCookie("_U", "http://ustc.edu.cn");
     setCookie("_U_F", "http://ustc.edu.cn/ustc.ico");
-    setCookie("_V", "https://www.v2ex.com");    
+    setCookie("_V", "https://www.v2ex.com");
     setCookie("_W", "http://weibo.com");
     setCookie("_Y", "http://www.youku.com");
     setCookie("FIRSTTIME", "OVER");
@@ -59,7 +59,7 @@ $("#main li").click(function() {
     if (isupdate == false && urlcache[code] != '' && typeof(urlcache[code]) != 'undefined') {
         window.location.href = urlcache[code];
     }
-	isupdate = false;
+    isupdate = false;
 });
 
 function del() {
@@ -73,7 +73,7 @@ function del() {
 };
 
 function update() {
-	isupdate = true;
+    isupdate = true;
     var code = $("#tempdate").val();
     var u = window.prompt("请输入键位 [" + code + "] 对应的网站地址", urlcache[code]);
     if (u.indexOf('http://') == -1 && u.indexOf('https://') == -1) {
@@ -145,7 +145,7 @@ function getCookie(name) {
 };
 
 function IsURL(str_url) {
-    var strRegex = "^((https|http|ftp|rtsp|mms)?://)" + "?(([0-9a-z_!~*'().&=+$%-]+: )?[0-9a-z_!~*'().&=+$%-]+@)?" + "(([0-9]{1,3}.){3}[0-9]{1,3}" + "|" + "([0-9a-z_!~*'()-]+.)*" + "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]." + "[a-z]{2,6})" + "(:[0-9]{1,4})?" + "((/?)|" + "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";
+    var strRegex = "^((https|http|ftp|rtsp|mms)?://)" + "?(([0-9a-zA-Z_!~*'().&=+$%-]+: )?[0-9a-zA-Z_!~*'().&=+$%-]+@)?" + "(([0-9]{1,3}.){3}[0-9]{1,3}" + "|" + "([0-9a-zA-Z_!~*'()-]+.)*" + "([0-9a-zA-Z][0-9a-zA-Z-]{0,61})?[0-9a-zA-Z]." + "[a-zA-Z]{2,6})" + "(:[0-9]{1,4})?" + "((/?)|" + "(/[0-9a-zA-Z_!~*'().;?:@&=+$,%#-]+)+/?)$";
     var re = new RegExp(strRegex);
     return !!re.test(str_url);
 };
